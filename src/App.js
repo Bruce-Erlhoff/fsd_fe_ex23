@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Check1 from './components/Check1';
+import Users from './components/Users';
+import Parent from './components/Parent';
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+
+{/* uncomment Check1 and Users to see Check1.js and Users.js examples */}
+
+      {/* <h1>Use Effect check</h1> */}
+      {/* <Check1/> */}
+      {/* <Users/> */}
+      <Parent name="John Doe" location="Connecticut"/>
     </div>
   );
 }
